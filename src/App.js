@@ -26,7 +26,7 @@ class App extends React.Component {
   componentDidMount() {
     const today = moment();
     const todayStr = `${today.year()}/${today.month()}/dias/${today.date()}`;
-    fetch('https://api.sbif.cl/api-sbifv3/recursos_api/dolar/' + todayStr + '?apikey=9c84db4d447c80c74961a72245371245cb7ac15f&formato=json')
+    fetch(`https://api.sbif.cl/api-sbifv3/recursos_api/dolar/${todayStr}?apikey=9c84db4d447c80c74961a72245371245cb7ac15f&formato=json`)
     .then(data => data.json())
     .then(data => {
       const formatData = data.Dolares.map(date => {
@@ -46,8 +46,8 @@ class App extends React.Component {
 
   getDollarInfo = () => {
     if (this.state.startDate && this.state.endDate) {
-      const formatTimeSpan = `${this.state.startDate.year()}/${this.state.startDate.month()+1}/dias_i/${this.state.startDate.date()}/${this.state.endDate.year()}/${this.state.endDate.month()+1}/dias_f/${this.state.endDate.date()}`
-      fetch('https://api.sbif.cl/api-sbifv3/recursos_api/dolar/periodo/' + formatTimeSpan + '?apikey=9c84db4d447c80c74961a72245371245cb7ac15f&formato=json')
+      const formatTimeSpan = `${this.state.startDate.year()}/${this.state.startDate.month()+1}/dias_i/${this.state.startDate.date()}/${this.state.endDate.year()}/${this.state.endDate.month()+1}/dias_f/${this.state.endDate.date()}`;
+      fetch(`https://api.sbif.cl/api-sbifv3/recursos_api/dolar/periodo/${formatTimeSpan}?apikey=9c84db4d447c80c74961a72245371245cb7ac15f&formato=json`)
         .then(data => data.json())
         .then(data => {
           const formatData = data.Dolares.map(date => {
