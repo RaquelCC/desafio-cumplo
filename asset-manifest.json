@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/desafio-cumplo/static/css/main.bc006299.chunk.css",
-    "main.js": "/desafio-cumplo/static/js/main.570af004.chunk.js",
-    "main.js.map": "/desafio-cumplo/static/js/main.570af004.chunk.js.map",
+    "main.css": "/desafio-cumplo/static/css/main.14a87a66.chunk.css",
+    "main.js": "/desafio-cumplo/static/js/main.a63a1e75.chunk.js",
+    "main.js.map": "/desafio-cumplo/static/js/main.a63a1e75.chunk.js.map",
     "runtime~main.js": "/desafio-cumplo/static/js/runtime~main.d640573f.js",
     "runtime~main.js.map": "/desafio-cumplo/static/js/runtime~main.d640573f.js.map",
     "static/css/2.6b197f1e.chunk.css": "/desafio-cumplo/static/css/2.6b197f1e.chunk.css",
     "static/js/2.2d85dddf.chunk.js": "/desafio-cumplo/static/js/2.2d85dddf.chunk.js",
     "static/js/2.2d85dddf.chunk.js.map": "/desafio-cumplo/static/js/2.2d85dddf.chunk.js.map",
     "index.html": "/desafio-cumplo/index.html",
-    "precache-manifest.a243e317d89f9afc65bd6e2336758935.js": "/desafio-cumplo/precache-manifest.a243e317d89f9afc65bd6e2336758935.js",
+    "precache-manifest.d24892cc95bdea34e27d822548812545.js": "/desafio-cumplo/precache-manifest.d24892cc95bdea34e27d822548812545.js",
     "service-worker.js": "/desafio-cumplo/service-worker.js",
     "static/css/2.6b197f1e.chunk.css.map": "/desafio-cumplo/static/css/2.6b197f1e.chunk.css.map",
-    "static/css/main.bc006299.chunk.css.map": "/desafio-cumplo/static/css/main.bc006299.chunk.css.map",
+    "static/css/main.14a87a66.chunk.css.map": "/desafio-cumplo/static/css/main.14a87a66.chunk.css.map",
     "static/media/App.css": "/desafio-cumplo/static/media/sharon-mccutcheon-665638-unsplash.bd82bdbe.jpg"
   }
 }
