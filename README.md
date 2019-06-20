@@ -10,11 +10,13 @@ Este proyecto fué desarrollado para cumplir con la siguiente funcionalidad:
 
 > Permitir al usuario utilizar la API de la SBIF(Superintendencia de Bancos e Instituciones Financieras) para calcular la variación del dolar entre dos fechas, y graficar dicha variación.
 
+> Adicionalmente debe mostrar el promedio, mínimop y máximo del valor del dolar para el período seleccionado por el usuario.
+
 ### TECNOLOGÍAS UTILIZADAS
 
 - HTML5 - CSS3 - SASS.
 - JavaScript - React.
-- [API SBIF](http://api.sbif.cl/documentacion/index.html)
+- [API SBIF](http://api.sbif.cl/documentacion/index.html).
 
 Adicionalmente se utilizó lo siguiente:
 
