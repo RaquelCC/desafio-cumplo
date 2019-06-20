@@ -12,7 +12,7 @@ Este proyecto fué desarrollado para cumplir con la siguiente funcionalidad:
 
 ### TECNOLOGÍAS UTILIZADAS
 
-- HTML5 - CSS3.
+- HTML5 - CSS3 - SASS.
 - JavaScript - React.
 - [API SBIF](http://api.sbif.cl/documentacion/index.html)
 
