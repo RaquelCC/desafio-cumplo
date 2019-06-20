@@ -71,7 +71,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header><div className="line-across line-1"></div>Valor Dolar<div className="line-across line-2"></div></header>
+        <header><div className="line-across"></div>Valor Dolar<div className="line-across"></div></header>
         <div className="picker-div">
           <DateRangePicker
             startDateId="startDate"

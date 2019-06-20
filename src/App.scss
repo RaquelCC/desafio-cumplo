@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300&display=swap');
+
+
+$primary-color-dark: #008489;
+$primary-color-light: #00a699;
+$primary-font: 'Roboto', sans-serif;
+
+@mixin height-text-valign($height) {
+    height: $height;
+    line-height: $height;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.75) 100%), url('./img/sharon-mccutcheon-665638-unsplash.jpg');
+    background-size: cover;
+    font-family:  $primary-font;
+}
+
+.DateInput_input {
+    font-family: $primary-font;
+}
+
+.DateRangePicker {
+    margin: auto;
+    margin-right: 25px;
+}
+
+header {
+    @include height-text-valign(70px);
+    background-color: #fff;
+    color: $primary-color-dark;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: left;
+    display: flex;
+}
+
+.line-across {
+    height: 0;
+    border-top: 1px solid $primary-color-dark;
+    display: inline-block;
+    margin: auto;
+    width: 30%;
+}
+
+.picker-div {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.get-stats-btn {
+    @include height-text-valign(48px);
+    padding: 0 30px;
+    background-color: $primary-color-light;
+    color: #fff;
+    margin: auto;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+  
+.get-stats-btn:hover {
+    cursor: pointer;
+}

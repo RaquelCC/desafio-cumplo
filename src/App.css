@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300&display=swap");
 * {
   box-sizing: border-box;
 }
+
 html, body, #root {
   height: 100%;
+  margin: 0;
 }
 
 .App {
-  font-family: 'Roboto', sans-serif;
-  min-height: 100%;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.75) 100%), url('./img/sharon-mccutcheon-665638-unsplash.jpg');
-  background-size: cover;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.75) 100%), url("./img/sharon-mccutcheon-665638-unsplash.jpg");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
 }
 
 .DateInput_input {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .DateRangePicker {
   margin: auto;
   margin-right: 25px;
 }
-
 
 header {
   height: 70px;
@@ -34,7 +35,6 @@ header {
   font-weight: 300;
   text-align: left;
   display: flex;
-
 }
 
 .line-across {
@@ -42,13 +42,6 @@ header {
   border-top: 1px solid #008489;
   display: inline-block;
   margin: auto;
-}
-
-.line-1 {
-  width: 30%;
-}
-
-.line-2 {
   width: 30%;
 }
 
@@ -60,9 +53,8 @@ header {
 
 .get-stats-btn {
   height: 48px;
-  width: fit-content;
-  padding: 0 30px;
   line-height: 48px;
+  padding: 0 30px;
   background-color: #00a699;
   color: #fff;
   margin: auto;
@@ -74,3 +66,5 @@ header {
 .get-stats-btn:hover {
   cursor: pointer;
 }
+
+/*# sourceMappingURL=App.css.map */
