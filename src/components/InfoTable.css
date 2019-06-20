@@ -1,0 +1,21 @@
+.table-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.table-title {
+    background-color: #00a699;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.table-row {
+    margin: auto;
+}
+
+.table-info {
+    text-align: center;
+}
