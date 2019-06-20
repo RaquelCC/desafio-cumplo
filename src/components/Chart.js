@@ -26,14 +26,13 @@ export default class Chart extends React.Component {
 				crosshair: {
 					enabled: true,
 					snapToDataPoint: true,
-					labelFormatter: function(e) {
+					labelFormatter: (e) => {
 						return "$" + CanvasJS.formatNumber(e.value, "##0.00");
 					}
 				}
 			},
 			data: [{
 				type: "area",
-				xValueFormatString: "DD MMM",
 				yValueFormatString: "$##0.00",
 				dataPoints: this.props.dataPoints,
 			}]
