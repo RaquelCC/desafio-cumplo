@@ -21,7 +21,7 @@ Este proyecto fué desarrollado para cumplir con la siguiente funcionalidad:
 Adicionalmente se utilizó lo siguiente:
 
 - Para el DatePicker, se utilizó [react-dates](https://github.com/airbnb/react-dates).
-- Para el gráfico, se utulizó [CanvasJS](https://canvasjs.com/react-charts/).
+- Para el gráfico, se utilizó [CanvasJS](https://canvasjs.com/react-charts/).
 
 ### FUNCIONAMIENTO
 
